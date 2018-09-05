@@ -5,8 +5,11 @@
   "repository": "https://seeba37@bitbucket.org/seeba37/logger.git",
   "author": "Sebastian Perez <sebastian.perez@samsistemas.com.ar>",
   "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc",
+    "postinstall": "postinstall-build"
+ },
   "dependencies": {
-    "moment": "2.18.1",
     "winston": "2.3.1",
     "winston-daily-rotate-file": "1.4.6"
   },
