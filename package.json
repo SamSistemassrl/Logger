@@ -6,7 +6,7 @@
   "author": "Sebastian Perez <sebastian.perez@samsistemas.com.ar>",
   "license": "MIT",
   "scripts": {
-    "build": "npm install && ./node_modules/typescript/bin/tsc && echo builded",
+    "build": "./node_modules/typescript/bin/tsc && echo builded",
     "postinstall": "echo postinstalled"
  },
   "dependencies": {
