@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "./node_modules/.bin/tsc && echo builded",
-    "postinstall": "echo postinstalled"
+    "postinstall": "./node_modules/.bin/tsc"
  },
   "files": [
     "dist/"
