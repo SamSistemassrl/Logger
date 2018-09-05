@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npm install && ./node_modules/typescript/bin/tsc",
-    "postinstall": "postinstall-build npm run build"
+    "postinstall": "npm run build"
  },
   "dependencies": {
     "winston": "2.3.1",
